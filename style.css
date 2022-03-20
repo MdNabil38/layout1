@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+height: 100px;
+background-color: rgb(0, 255, 136);
+display: flex;
+}
+.logo{
+color: blue;
+font-size: 30px;
+height: 50px;
+background-color: #fff;
+width: 15%;
+text-align: center;
+margin-top: 25px;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button{
+    color: blue;
+    font-size: 30px;
+    margin-top: 25px;
+    background-color: #fff;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    color: rgb(243, 241, 239);
+    font-size: 30px;
+    margin-top: 25px;
+    background-color: rgb(163, 72, 30);
+    height: 600px;
+    text-align: center;
+
+}
+.banner h1{
+
+}
+.content{
+display: flex;
+width: 80%;
+margin: auto;
+margin-top: 25px;
+}
+.first_content{
+height: 300px;
+width: 40%;
+background-color: rgb(212, 186, 34);
+}
+.second_content{
+    height: 300px;
+    width: 40%;
+    background-color: rgb(212, 186, 34);
+    margin-left: 20%;
+}
+.feature{
+    background-color: rgb(194, 58, 58);
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+.client{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+.first_client{
+height: 300px;
+background-color: rgb(118, 204, 20);
+width: 30%;
+}
+.second_client{
+    height: 300px;
+    background-color: rgb(118, 204, 20);
+    width: 30%;
+    margin-left: 5%;
+}
+.third_client{
+    height: 300px;
+    background-color: rgb(118, 204, 20);
+    width: 30%;
+    right: 0px;
+    margin-left: 5%;
+}
+footer{
+height: 100px;
+background-color: rgb(49, 26, 182);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+footer h1{
+    color: #fff;
+}
